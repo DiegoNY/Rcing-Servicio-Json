@@ -1,0 +1,79 @@
+{
+    "TipoDocumento": 3,
+    "FechaEmision": "2023-04-03T15:31:26.873",
+    "RucEmisor": "10704012964",
+    "Numeracion": "B203-00195633",
+    "TipoDocumentoAdquiriente": 1,
+    "NumeroDocumentoAdquiriente": "00000000",
+    "NombreAdquiriente": "Clientes Varios",
+    "DireccionAdquiriente": "",
+    "Operacion": [
+        {
+            "TipoOperacion": 1,
+            "Monto": 4.24
+        }
+    ],
+    "Tributos": [
+        {
+            "TipoTributo": 1,
+            "Valor": 0.76,
+            "PorcentajeTributo": 18.00
+        }
+    ],
+    "OtrosCargos": 0.0,
+    "TotalVenta": 5.00,
+    "TipoMoneda": "PEN",
+    "Item": [
+        {
+            "CodigoProducto": 1,
+            "Valor": 4.24,
+            "PrecioUnitario": 1.48,
+            "ValorUnitario": 1.25,
+            "unidadItem": "MTQ",
+            "cantidadItem": 3.37,
+            "descripcionItem": "GAS NATURAL VEHICULAR",
+            "igvItem": 0.76,
+            "Importe": 5.00,
+            "descuentoItem": 0.0,
+            "Placa": "BFC110",
+            "numeroItem": 2374170,
+            "TipoOperacion": 1,
+            "Monto": 4.24,
+            "Subtotal": 4.24
+        }
+    ],
+    "Leyenda": [
+        {
+            "TipoLeyenda": 1000,
+            "Descripcion": "CINCO Y  00 /100 SOLES"
+        }
+    ],
+    "CodigoNotaCreditoDebito": "",
+    "DocumentoAfectado": "",
+    "TipoDocumentoAfectado": "",
+    "MotivoSustento": "",
+    "Venta": [
+        {
+            "MaquinaRegistradora": "FFBF029204",
+            "Hora": "15:31:26",
+            "Turno": 2,
+            "Cara": 4,
+            "Isla": 2,
+            "Manguera": 4,
+            "Recibo": 2374170,
+            "FechaHora": "3/04/2023 15:31:26",
+            "FechaProximoMantenimiento": "8/07/2023 00:00:00",
+            "FechaRevisionCilindro": "20270401 00:00:00",
+            "Donacion": 0.0,
+            "Redondeo": 0.0
+        }
+    ],
+    "Recaudos": [
+        {
+            "Financiera": "FISE",
+            "Porcentaje": 30.00,
+            "Monto": 1.50
+        }
+    ],
+    "MedioPago": null
+}
