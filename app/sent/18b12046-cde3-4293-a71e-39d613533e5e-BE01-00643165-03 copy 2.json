@@ -1,0 +1,57 @@
+{
+  "TipoDocumento": 3,
+  "FechaEmision": "2023-04-28T13:26:01.463",
+  "RucEmisor": "10704012964",
+  "Numeracion": "BE01-00643165",
+  "TipoDocumentoAdquiriente": 1,
+  "NumeroDocumentoAdquiriente": "00000000",
+  "NombreAdquiriente": "Clientes Varios",
+  "DireccionAdquiriente": "",
+  "Operacion": [{ "TipoOperacion": 1, "Monto": 5.08 }],
+  "Tributos": [{ "TipoTributo": 1, "Valor": 0.92, "PorcentajeTributo": 18.0 }],
+  "OtrosCargos": 0.0,
+  "TotalVenta": 6.0,
+  "TipoMoneda": "PEN",
+  "Item": [
+    {
+      "CodigoProducto": 1,
+      "Valor": 5.08,
+      "PrecioUnitario": 2.09,
+      "ValorUnitario": 1.77,
+      "unidadItem": "MTQ",
+      "cantidadItem": 2.87,
+      "descripcionItem": "GAS NATURAL VEHICULAR",
+      "igvItem": 0.92,
+      "Importe": 6.0,
+      "descuentoItem": 0.0,
+      "Placa": "AKA401",
+      "numeroItem": 1174122,
+      "TipoOperacion": 1,
+      "Monto": 5.08,
+      "Subtotal": 5.08
+    }
+  ],
+  "Leyenda": [{ "TipoLeyenda": 1000, "Descripcion": "SEIS Y  00 /100 SOLES" }],
+  "CodigoNotaCreditoDebito": "",
+  "DocumentoAfectado": "",
+  "TipoDocumentoAfectado": "",
+  "MotivoSustento": "",
+  "Venta": [
+    {
+      "MaquinaRegistradora": "FFBF26621",
+      "Hora": "13:26:01",
+      "Turno": 1,
+      "Cara": 1,
+      "Isla": 1,
+      "Manguera": 1,
+      "Recibo": 1174122,
+      "FechaHora": "28/04/2023 01:26:01 p.m.",
+      "FechaProximoMantenimiento": "02/11/2023 12:00:00 a.m.",
+      "FechaRevisionCilindro": "20250828 00:00:00",
+      "Donacion": 0.0,
+      "Redondeo": 0.0
+    }
+  ],
+  "Recaudos": [],
+  "MedioPago": null
+}
