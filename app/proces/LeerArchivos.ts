@@ -13,10 +13,12 @@ export const LeyendoArchivos = (carpeta: string): Promise<Documento[]> => {
         return;
       }
 
+      let cantidad_carpetas_leidas: number = 0;
+      const cantidad_carpetas_cliente = archivos.length;
+      const archivosEnviar: Documento[] = [];
+
       archivos.map((carpeta_cliente) => {
-        console.log(carpeta_cliente);
         const carpeta_documento = carpeta + "/" + carpeta_cliente;
-        const archivosEnviar: Documento[] = [];
 
         fs.readdir(carpeta_documento, (error, json_enviar) => {
           if (error) {
@@ -37,11 +39,14 @@ export const LeyendoArchivos = (carpeta: string): Promise<Documento[]> => {
             // Registrar el archivo como procesado
           });
 
-          if (archivosEnviar.length != 0) {
+          cantidad_carpetas_leidas++
+
+          if (cantidad_carpetas_leidas == cantidad_carpetas_cliente) {
             resolve(archivosEnviar);
           }
         });
       });
+
     });
   });
 };
